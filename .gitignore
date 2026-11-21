@@ -1,0 +1,12 @@
+node_modules/
+dist/
+# raw BodyParts3D download (~600 MB) — regenerate with scripts/bp3d (see README)
+data/bp3d/
+data/*.json
+data/*.tsv
+*.log
+.DS_Store
+.claude/
+shots/
+c/
+tmp/
