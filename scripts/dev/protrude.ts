@@ -1,5 +1,5 @@
-import { defineAll } from '../src/anatomy';
-import { skinShape } from '../src/anatomy/skin';
+import { defineAll } from '../../src/anatomy';
+import { skinShape } from '../../src/anatomy/skin';
 const { parts } = defineAll();
 const S = skinShape();
 const res: [string, number, number, string][] = [];

@@ -1,8 +1,8 @@
 import * as THREE from 'three';
 import { MeshBVH } from 'three-mesh-bvh';
 import * as fs from 'fs';
-import { defineAll } from '../src/anatomy';
-import { warpGeo } from '../src/geo/warp';
+import { defineAll } from '../../src/anatomy';
+import { warpGeo } from '../../src/geo/warp';
 const man = JSON.parse(fs.readFileSync('src/data/bp3d_manifest.json', 'utf8'));
 const bins: Record<string, Buffer> = {};
 const posL: number[] = [], idxL: number[] = [];

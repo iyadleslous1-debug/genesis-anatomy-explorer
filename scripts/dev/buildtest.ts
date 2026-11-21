@@ -1,4 +1,4 @@
-import { defineAll } from '../src/anatomy';
+import { defineAll } from '../../src/anatomy';
 const { groups, parts } = defineAll();
 const only = process.argv[2];
 let tris = 0, total = 0;

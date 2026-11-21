@@ -1,5 +1,5 @@
-import { defineAll } from '../src/anatomy';
-import { liver } from '../src/anatomy/organs';
+import { defineAll } from '../../src/anatomy';
+import { liver } from '../../src/anatomy/organs';
 const { parts } = defineAll();
 const bySys: Record<string, [number, number, number]> = {};
 for (const p of parts) {

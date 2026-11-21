@@ -1,4 +1,4 @@
-import { defineAll } from '../src/anatomy';
+import { defineAll } from '../../src/anatomy';
 import { writeFileSync, mkdirSync } from 'fs';
 const { groups, parts } = defineAll();
 const strip = (id: string) => id.replace(/\.(L|R)$/, '');

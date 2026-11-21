@@ -4,6 +4,8 @@ dist/
 data/bp3d/
 data/*.json
 data/*.tsv
+!data/bp3d_leaf.tsv
+!data/bp3d_inspect.json
 *.log
 .DS_Store
 .claude/
